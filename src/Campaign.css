@@ -1,0 +1,15 @@
+.appContainer {
+  width: 80vw;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.campaignForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 30vw;
+  height: 60vh;
+  justify-content: space-evenly;
+  margin: auto;
+}
