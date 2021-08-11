@@ -3,7 +3,7 @@
 An Ethereum Blockchain based crowdfunding app made using Solidity, React, Hardhat, and Web3.js
 
 ## UseCase
-Decentralization is the future and this applicatio helps in open campaigns that can be started by anyone and funded by anyone without the need of a mediator that processes the transactions. Since the transactions are written on blockchain, they are immutable and can always be referred to in case of any discrepancies.
+Decentralization is the future and this application helps to open campaigns that can be started by anyone and funded by anyone without the need of a mediator that processes the transactions. Since the transactions are written on blockchain, they are immutable and can always be referred to in case of any discrepancies.
 
 ## Features
 
