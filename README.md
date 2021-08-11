@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# EthCrowd
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An Ethereum Blockchain based crowdfunding app made using Solidity, React, Hardhat, and Web3.js
 
-## Available Scripts
+## UseCase
+Decentralization is the future and this applicatio helps in open campaigns that can be started by anyone and funded by anyone without the need of a mediator that processes the transactions. Since the transactions are written on blockchain, they are immutable and can always be referred to in case of any discrepancies.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+ - Email based authorization implemented using Savo Labs
+ - Users can create their campaigns and ask for funds in form of a custom crypto token CHLP (CrowdHelp).
+ - Other users can login and use their MetaMask wallet to fund the existing campaigns.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Interface
+### Login Screen
+![Login Screen](https://lh3.googleusercontent.com/iX5DnW6OFjd64jfdbJH-XI0fbwyUi3iuO01PA8qBGnWPnVybXMtMgGr1_viM3eqxoiLxfM9i6kaNo6JZLAZYxVRL2LxB7Hr5uuDbSDm_8R24xK-tp9SzrGvvT0nRaolkJbHdlr2FRavYz6s1uIwtjSMbRXXbLuYCYYttfEWc9r-PgvsYB73C0-KqCZ40o6Y9a9fsApLjwe9_XDS4nlpViL2BcmtOsMle16O0CMhG0Zbc18d9Rwqp-B0Y0EtoUMRSZQCn9cTk6mRXNH7kwCMvd0tMaBc0K-BRddwf3q6W6L-USUlfWyOkm8eorLCmVXnFRrNUg6vQzHWD7lCk6Ux2pcVLkhL3_PZXTCQI_ahlaXyz0zT4Wp8m0Y5tR7YBR2Grb-Gdprg9ubZg2wUDN8gPTQhZv0u03mMOKepnmYmc7t7nWrlf-SapKXVKy3LEe_rxq6mj4KPoPDPRvvfFxwFrToC4gPahogv68sij5zqHwxNYQxjeyl1x6bVgchZ8zyGcQBoMEG5vx2BCWdCiR69vRuyL4JwqGXI1XPGVP7QYEZcQQ_W4plPHiSWNB0QanVLFG6p6CDg0yZNnkfyu_digBMbR0G_yWMftINM6NeUSnzWC87B2262FzUU_bV8BnyU-WXKhvJbvrt3lvUKIQX2tbCAhOINLwYSoPzN2WdFBEzpGd31ObyDkc0t7Cw0w_ya6W4oYGT0A-JKXtTj251_Ug3lX=w3840-h1758-no?authuser=0)
+### Create a campaign
+![Creating Campaign](https://lh3.googleusercontent.com/eMtq5s8Cw30s8q6TX30SbXUsLn8ewklWL1hbiFoFidDjVFGE6w_TMtZloX7AB0VYHpiRePXU2s9Z9_gdNsHM7GckNYxGNFT_iLpAek28uf2Ypq80VMq2CR6w-yRvPsF6Y3Z6LFtqgMyOwUrvbIXafL3Ec3LT1_QApA0hbcx1pB_fvwBXyZb6xPXzhnVVOz6ClvbWaAhCvIwZMp276ly1X9aYSjex0BZxTZs4MXjVBCbjr3VitQ53bgZD1fHoKgYfjSXp3HHE_T3X2B1op5R0h6lzgFsQvMn-6zonyy63Jqbdq6aMk0iOlG_znDAt2n6T-IuqXY9Sn5-4USnBXUe5JxPHrnPK69xHVLOFvytebXBIp02vaZhsS_fXHk1xcWJzrYPtk2Zl_evCLYQnbRuQdZruPrexV5_IzseNGXt8j8lBy2tGwNmRsrKGr8AXW-cjLGwciwXFeVknMUDcA_8eYjo5rTrQ6JyF7lHPdQ7hvXRIAOiSVT18dXznJK-LEd3zGjReKuJ3NsZ5s76jsn2mQKVY4JSAdLE0DpWDl72pXykSa2frT8_--N_R3o9KOXvV8dFb6yh2aZEnMQlmNiVJKKAsMJENuOrGEDpfVIWXg4l13-ndWgvgapOiq5l-Uoh3V7vMRoebBtoGso21a3ivDo1jslxG6EFshQUsgHGMCievyLEc53SnyyWOwHFokh15rQWatR-Zes4GYoX3_7426xFF=w3840-h1769-no?authuser=0)
+### Funding/Requesting for a campaign
+![Funding a Campaign](https://lh3.googleusercontent.com/LGniHEN8xdCVFKEXZ8H1M05YXqIUIqrxCKn3D7Rd9RnHueOj1j02w5vsmdHxIt3A8IWzcakCwlRf9d2qkt00Jy8_bJCSV80lyn0VasVSnIJjUiRKr3798QBPfX35EuNwOMIOntcb9MHIcLVUTPa8le52cm_Brih60yKeBxnYv07oI6qe2ur9nwj2oiVNzk9xfKdu-wwLZjJ6I84TC0-C3JLvQu6bsaVazPdMVOK0OS6tS1eqDFsQ8upOZV-2ex75uURIMm8kTCrfibTL2H4E7cexcuhYeq8ALTQUKIpcDul61GoXaHTXP3jK12JXER2oBqIXTEcpxA8YS060B0i7OppEWCnnl-o26QN_Rtqnc9RU5f6zUKdG1VejrRjJJz1BT5wPfQC9T6OflZrsWqAZ8UE1DQsbrgUbJXmOtwtzD6j4fqDoM1aNSXHAf2QZpnj4JTLMRtx3uwFGpnNdTVgVU2XBDJQBY4w4SLxA3CStV5A42j9neoMV3m4MMb9Va9tIKQ55rqNUQ_P-Be_Lmncv8-laYQuj1E0O_O6MrjbPj1KiEvrW2edM85j03SbUTfpkqFUQytAVEYREO527EXGWxZFB6bQi0O0H_EOsoW5mZtbHS5dhfe3-vycoQFjvcfphFJ6PkckKB9iVmoLGUx9sw_DgoYgi5HBTxB96BHhiOgPEe5g3weeOtipjsBOaJmUasZc-QzWutJSW8WgfcRyXv5ts=w3840-h1526-no?authuser=0)
+### Visible Campaigns
+![Active Campaigns](https://lh3.googleusercontent.com/V63cWqZOsTo90HZtcwtOBBPWKHf1Zhtw8gZhAuB9Z_Rn4GWYVxM5xDa0WXla2fGZ_OdDQHXgiIDMfhHRVUWe1vl47BrQMFW_-eV09n8uzGAif2FLDMIR5IW_TeDbs-PQorhpm5MrAMr4aukZBB2mjZLY1QZoqotqC7FRMAUqop4-bGm5Ve3qqVOF8Bp90rmxiTOLuyBkT7BUzXUOX7g3neJjHRjScq3UNUg4eqhSun4MaPJ0yCGzWEEWygD-5SNxXHAbpAYweE6JVkwP6X1Lgk7yH6HFsfpo9034iCfDy9rMHlWkmN3xcdPPayqXFr5FT8ckGvE8dILvc5aQYZA4pQMMl6wkVWFym5w9g8JnJrOuR-qEPJWKWXLPOGlM4AEZGf4Cqz-TiHSt3nGYNMOx2ZKAfiWkupudGAVYZ4mJSknuNF8aAkBDtVLFCMKtUGx7yOcKbeyPkz24s30orrjzSRAxGmCD1WB97-tPYkvRHd-rG6EJ5uG5IDgv4AhW_r5nELl7KqZuy5EWDVjJ2up_ouAVmXrE07dKtEwyWeOvQUx58z_TOHJuDSohWIqM5lU9cK4KFkDq7BPJfkKiuj5SwyjycmV7m4ll1ZgtjTVsno_7bK0Fut7XwqQPKXHzy7IQEmzco05jx4vZKdJEoeSOS6Rayk2bhnry1EuiMLYGsnM-fmYpFgPSzEUuI6c0352EgtMtAmsBuldyyt8tlksB-ZvV=w3840-h1759-no?authuser=0)
